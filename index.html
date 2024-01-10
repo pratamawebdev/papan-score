@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papan Score</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Papan Score</h1>
+    </nav>
+
+    <main>
+      <div class="container-player">
+        <div class="p1wrapper">
+          <span id="p1-display">0</span>
+          <span class="p1name">Player 1</span>
+          <button id="p1-button">+1</button>
+        </div>
+        <span>vs</span>
+        <div class="p2wrapper">
+          <span id="p2-display">0</span>
+          <span class="p2name">Player 2</span>
+          <button id="p2-button">+1</button>
+        </div>
+      </div>
+      <div class="container-setting">
+        <span>Win Point</span>
+        <select name="" id="winpoint">
+          <option value="3">3</option>
+          <option value="5">5</option>
+          <option value="10">10</option>
+        </select>
+        <button id="reset">Reset</button>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
